@@ -18,7 +18,7 @@ const titleCased = () => {
       (splicedCase) => 
       splicedCase.charAt(0).toUpperCase() + splicedCase.slice(1));
    const result = capilatizedLetter.join(" ");
-    return result;
+    return result
   });
 
 
